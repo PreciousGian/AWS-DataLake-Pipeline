@@ -35,9 +35,15 @@ Running the Project
 3.	Query results in Athena
 Output
 Transformed data stored in S3 and available for querying in Athena.
+
 Repository Structure
+
 AWS-DataLake-Pipeline/
+
 ├── data/                # Sample CSV/JSON files
-├── glue_scripts/        # Python ETL scripts
+
+├── glue_scripts/        # Python ETL script
+
 ├── README.md            # Project documentation
+
 └── architecture_diagram.png
